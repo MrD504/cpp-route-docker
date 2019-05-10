@@ -4,9 +4,9 @@
 
 This was created due to my code getting deleted from the VM when I went back to reaffirm how to solve a previous problem. As I was on Arch linux and dbecad's [instructions](https://github.com/dbecad/CppND-Route-Planning-Project/blob/master/Ubuntu16.4_Install.md) were for ubuntu I decided to use docker rather than reinstall my whole computer or use a vm.
 
-##Prerequisites - docker
+## Prerequisites - docker
 
-##Install guide
+## Install guide
 
 - Clone this repo file to a location on your computer
 - `git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules`

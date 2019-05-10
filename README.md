@@ -14,6 +14,6 @@ This was created due to my code getting deleted from the VM when I went back to 
 - Make sure you are in the directory with the Dockerfile in and run `docker build . -t cpp:latest`
 - `docker run -it -v {absolute/path/to/project}:/CppND-RoutePlanning-Project cpp:latest /bin/bash`
 
-Then from within the contain follow the final [instructions](https://github.com/dbecad/CppND-Route-Planning-Project/blob/master/Ubuntu16.4_Install.md#compile-and-run-project-code) to build the project
+Then from within the container follow the final [instructions](https://github.com/dbecad/CppND-Route-Planning-Project/blob/master/Ubuntu16.4_Install.md#compile-and-run-project-code) to build the project
 
 The binary will then be executable from the host.

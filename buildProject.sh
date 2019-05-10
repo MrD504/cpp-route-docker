@@ -1,8 +1,10 @@
-BuildDir = "build"
+#!/bin/bash
+BuildDir="build"
 
-cd ./CppND-RoutePlanning-Project
-if [! -d $BuildDir]; then
+cd CppND-Route-Planning-Project
+if [ ! -d "$BuildDir" ]; then
 mkdir $BuildDir
+fi
 cd $BuildDir
 cmake ..
 make

@@ -15,4 +15,7 @@ WORKDIR /
 COPY P0267_RefImpl /P0267_RefImpl
 WORKDIR /P0267_RefImpl/Debug
 RUN cmake --config Debug "-DCMAKE_BUILD_TYPE=Debug" .. && cmake --build . && make && make install
-CMD ["./buildProject.sh"]
+WORKDIR /
+COPY buildProject.sh /buildProject.sh
+RUN chmod +x /buildProject.sh
+CMD ["/buildProject.sh"]

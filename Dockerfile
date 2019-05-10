@@ -6,7 +6,7 @@ RUN apt update -y && \
     apt update -y && \
     apt install g++-7 -y && \
     rm /usr/bin/g++ && \
-    ln -s /usr/bin/g++-7 /usr/bin/g++\
+    ln -s /usr/bin/g++-7 /usr/bin/g++ &&\
     wget https://github.com/Kitware/CMake/releases/download/v3.14.3/cmake-3.14.3.tar.gz && \ 
     tar xzvf cmake-3.14.3.tar.gz && chmod +x /cmake-3.14.3/bootstrap
 WORKDIR /cmake-3.14.3
